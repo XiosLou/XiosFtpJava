@@ -6,7 +6,7 @@ import java.security.*;
 import java.util.*;
 
 public class FTPServer extends Thread{
-	//Modified by Lou
+	//Modified by Lou on 9/5/2018
     static char lastChar='0';
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
